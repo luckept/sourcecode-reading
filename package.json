@@ -1,0 +1,29 @@
+{
+  "name": "sourcecode-reading",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"><samp>Sourcecode Reading</samp></h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint --ext .ts --ext js  src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckept/sourcecode-reading.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luckept/sourcecode-reading/issues"
+  },
+  "homepage": "https://github.com/luckept/sourcecode-reading#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4",
+    "vitest": "^0.18.0"
+  }
+}
