@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [
     AutoImport({
       imports: ['vitest'],
+      dts: './src/_declare/auto-imports.d.ts',
     }),
   ],
   test: {
