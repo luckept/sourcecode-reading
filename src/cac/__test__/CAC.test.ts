@@ -1,5 +1,4 @@
 import CAC from '../main/CAC'
-import { describe, test, expect } from 'vitest'
 
 describe('cac build', () => {
   test('cac name', () => {
